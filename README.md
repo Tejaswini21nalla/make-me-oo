@@ -26,3 +26,9 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+SOLUTION :
+1.Here Point class is just the data class with some fields and crude methods like getters and setters.
+2.Distance and Direction calculator is the class having methods that depend completely on Point class Data.
+3.So move the methods from DistanceAndDirectionCalculator class to point class that contains most of the data used by methods.
+  This makes Point class coherent.
